@@ -1,0 +1,103 @@
+Script started on Wed Sep 21 21:09:22 2016
+[?1034hbash-3.2$ git clone git@jazz.cs.wmich,[K.edu:2230/a2
+Cloning into 'a2'...
+remote: Counting objects: 7, done.[K
+remote: Compressing objects:  14% (1/7)   [Kremote: Compressing objects:  28% (2/7)   [Kremote: Compressing objects:  42% (3/7)   [Kremote: Compressing objects:  57% (4/7)   [Kremote: Compressing objects:  71% (5/7)   [Kremote: Compressing objects:  85% (6/7)   [Kremote: Compressing objects: 100% (7/7)   [Kremote: Compressing objects: 100% (7/7), done.[K
+remote: Total 7 (delta 0), reused 0 (delta 0)[K
+Receiving objects:  14% (1/7)   Receiving objects:  28% (2/7)   Receiving objects:  42% (3/7)   Receiving objects:  57% (4/7)   Receiving objects:  71% (5/7)   Receiving objects:  85% (6/7)   Receiving objects: 100% (7/7)   Receiving objects: 100% (7/7), done.
+Checking connectivity... done.
+bash-3.2$ ssh git [K@jazz.cs.wmich.edu begin 223i;[K[Ko[K0 a2
+deleted 2230/parker.j.loomis/a2
+Cloning into bare repository '/home/git/repositories/2230/parker.j.loomis/a2.git'...
+done.
+2230/a2 forked to 2230/parker.j.loomis/a2
+bash-3.2$ cd a2
+bash-3.2$ git add a2.c
+bash-3.2$ git commit a[K-m"[K "added my file"
+[master c961d55] added my file
+ 1 file changed, 75 insertions(+)
+ create mode 100644 a2.c
+bash-3.2$ git push
+FATAL: W any 2230/a2 parker.j.loomis DENIED by fallthru
+(or you mis-spelled the reponame)
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git push
+FATAL: W any 2230/a2 parker.j.loomis DENIED by fallthru
+(or you mis-spelled the reponame)
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ cd
+bash-3.2$ git push
+fatal: Not a git repository (or any of the parent directories): .git
+bash-3.2$ cd a2
+bash-3.2$ git push
+FATAL: W any 2230/a2 parker.j.loomis DENIED by fallthru
+(or you mis-spelled the reponame)
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git[K[K[Kssh git [K@cs[K[Kjazz.cs.wmich.edu begin 2230 a2
+deleted 2230/parker.j.loomis/a2
+Cloning into bare repository '/home/git/repositories/2230/parker.j.loomis/a2.git'...
+done.
+2230/a2 forked to 2230/parker.j.loomis/a2
+bash-3.2$ git clone git@jazz.cs.wmich.edu"[K:2230/a2
+Cloning into 'a2'...
+remote: Counting objects: 7, done.[K
+remote: Compressing objects:  14% (1/7)   [Kremote: Compressing objects:  28% (2/7)   [Kremote: Compressing objects:  42% (3/7)   [Kremote: Compressing objects:  57% (4/7)   [Kremote: Compressing objects:  71% (5/7)   [Kremote: Compressing objects:  85% (6/7)   [Kremote: Compressing objects: 100% (7/7)   [Kremote: Compressing objects: 100% (7/7), done.[K
+remote: Total 7 (delta 0), reused 0 (delta 0)[K
+Receiving objects:  14% (1/7)   Receiving objects:  28% (2/7)   Receiving objects:  42% (3/7)   Receiving objects:  57% (4/7)   Receiving objects:  71% (5/7)   Receiving objects:  85% (6/7)   Receiving objects: 100% (7/7)   Receiving objects: 100% (7/7), done.
+Checking connectivity... done.
+bash-3.2$ ls
+Assignment 2, CS2230, Fall 2016	a2
+Day2.c				mallocex.c
+StringsPointers.c		printf.c
+bash-3.2$ cd
+bash-3.2$ ls
+Applications	Downloads	Music		VirtualBox VMs
+Desktop		Library		Pictures	twp-keygen-2.sh
+Documents	Movies		Public		typescript
+bash-3.2$ lscdlsgit clone git@jazz.cs.wmich.edu:2230/a2[C[C[C[C[C[C[C[C[C[Cssh git@jazz.cs.wmich.edu begin 2230 a2
+deleted 2230/parker.j.loomis/a2
+Cloning into bare repository '/home/git/repositories/2230/parker.j.loomis/a2.git'...
+done.
+2230/a2 forked to 2230/parker.j.loomis/a2
+bash-3.2$ ssh git@jazz.cs.wmich.edu begin 2230 a2[C[C[C[C[C[C[C[C[C[Cls[Kcdlsgit clone git@jazz.cs.wmich.edu:2230/a2
+Cloning into 'a2'...
+remote: Counting objects: 7, done.[K
+remote: Compressing objects:  14% (1/7)   [Kremote: Compressing objects:  28% (2/7)   [Kremote: Compressing objects:  42% (3/7)   [Kremote: Compressing objects:  57% (4/7)   [Kremote: Compressing objects:  71% (5/7)   [Kremote: Compressing objects:  85% (6/7)   [Kremote: Compressing objects: 100% (7/7)   [Kremote: Compressing objects: 100% (7/7), done.[K
+remote: Total 7 (delta 0), reused 0 (delta 0)[K
+Receiving objects:  14% (1/7)   Receiving objects:  28% (2/7)   Receiving objects:  42% (3/7)   Receiving objects:  57% (4/7)   Receiving objects:  71% (5/7)   Receiving objects:  85% (6/7)   Receiving objects: 100% (7/7)   Receiving objects: 100% (7/7), done.
+Checking connectivity... done.
+bash-3.2$ git add a2.c
+fatal: Not a git repository (or any of the parent directories): .git
+bash-3.2$ cd a2
+bash-3.2$ cd a2git add a2.c
+bash-3.2$ git commit -m "addd[Ked my file"
+[master ae595ca] added my file
+ 1 file changed, 75 insertions(+)
+ create mode 100644 a2.c
+bash-3.2$ got[K[Kit push
+FATAL: W any 2230/a2 parker.j.loomis DENIED by fallthru
+(or you mis-spelled the reponame)
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git push
+FATAL: W any 2230/a2 parker.j.loomis DENIED by fallthru
+(or you mis-spelled the reponame)
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ exit
+exit
+
+Script done on Wed Sep 21 21:27:03 2016
